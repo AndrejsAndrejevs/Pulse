@@ -1,0 +1,46 @@
+.adventage {
+    min-height: 473px;
+    padding: 73px 0 67px 0;
+    background: rgb(246, 246, 246);
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 65px;
+        max-width: 952px;
+    }
+
+    &__subtitle {
+        color: rgb(13, 13, 13);
+        font-family: MuseoModerno;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 270px;
+    }
+
+    &__descr {
+        margin-top: 20px;
+        color: rgb(13, 13, 13);
+        font-family: MuseoModerno;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    a {
+        color: #ff0000;
+        text-decoration: underline;
+    }
+}
