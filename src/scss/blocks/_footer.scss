@@ -1,0 +1,65 @@
+.footer {
+    height: 630px;
+    position: relative;
+
+    &__info {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 460px;
+        height: 270px;
+        background-color: $main-color;
+        padding: 50px 68px 60px 68px;
+
+    }
+
+    &__addr {
+        display: block;
+        margin-bottom: 36px;
+        color: rgb(255, 255, 255);
+        font-family: MuseoModerno;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    &__tel {
+        display: flex;
+        width: 198px;
+        margin-left: 60px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 38px;
+        justify-content: center;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    &__social-item {
+        display: flex;
+        margin: 0 15px;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 100%;
+        width: 52px;
+        height: 52px;
+
+        img {
+            height: 27px;
+        }
+    }
+}

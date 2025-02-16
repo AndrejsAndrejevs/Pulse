@@ -1,0 +1,49 @@
+.review {
+    padding-bottom: 49px;
+
+    &__full {
+        display: flex;
+        margin-top: 60px;
+    }
+
+    &__foto {
+        width: 169px;
+        height: 169px;
+    }
+
+    &__name {
+        color: rgb(13, 13, 13);
+        font-family: MuseoModerno;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: left;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    &__prof {
+        margin-top: 0px;
+        color: rgb(100, 100, 100);
+        font-family: MuseoModerno;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    &__words {
+        margin-left: 61px;
+    }
+
+    &__text {
+        width: 680px;
+        font-family: MuseoModerno;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+}

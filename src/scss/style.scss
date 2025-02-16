@@ -4,6 +4,10 @@
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .container {
     max-width: 950px;
     margin: 0 auto;
@@ -15,4 +19,10 @@
 @import 'blocks/adventage';
 @import 'blocks/title';
 @import 'blocks/consultation';
-@import 'blocks/forms'
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/review';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup'
